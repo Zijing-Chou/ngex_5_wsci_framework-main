@@ -1,0 +1,18 @@
+{
+  "diagnostic": {
+    "problem": "\nI changed my university password this morning.\nNow my Windows laptop won't connect to campus Wi-Fi,\nbut my phone still works.\n",
+    "device": "Windows laptop",
+    "wifi_status": "operational",
+    "cause": "Windows may still be using the old cached password for eduroam after the password change.",
+    "steps": [
+      "Forget the eduroam network in Settings > Network & Internet > Wi-Fi",
+      "Reconnect to eduroam and enter the new password (ensure it's case-sensitive)",
+      "Check if the university account is active and verify no service outages"
+    ]
+  },
+  "report": {
+    "total_wifi_cases": 37,
+    "resolved_cases": 29,
+    "unresolved_cases": 8
+  }
+}
